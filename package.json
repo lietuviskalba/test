@@ -1,0 +1,21 @@
+{
+  "name": "alna_hub",
+  "version": "1.0.0",
+  "description": "Alna course hub json package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify Test.js > bundle.js && live-server",
+    "start": "nodemon server.js"
+  },
+  "author": "Mantas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "lodash": "^4.17.15",
+    "mongodb": "^2.2.33",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  }
+}
